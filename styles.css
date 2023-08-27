@@ -31,11 +31,6 @@ body {
   .row {
     flex-direction: column;
   }
-
-  .row .hangman-draw .draw {
-    left: 70px;
-    bottom: -147px;
-  }
 }
 
 hr {
@@ -62,6 +57,13 @@ hr {
   -o-transform: translate(-50%, -50%);
   border-bottom: 4px solid #222;
   display: none;
+}
+
+@media (max-width: 767px) {
+  .row .hangman-draw .draw {
+    left: 70px;
+    top: 147px;
+  }
 }
 
 .hangman-draw .draw .stand {
