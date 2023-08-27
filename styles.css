@@ -33,6 +33,7 @@ body {
   }
 
   .row .hangman-draw .draw {
+    left: 70px;
     bottom: -147px;
   }
 }
